@@ -1,0 +1,23 @@
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    .nav-bar-info{
+        display: none;
+    }
+    #about .container{
+       max-width: 100%;
+    }
+    #target,#personal-info {
+        padding: 10px 30px !important;
+    }
+    #job-info .container{
+        grid-template-columns: auto auto !important;     
+        max-width: 90%;
+    }
+    #project .project-wrap{
+        gap: 10px !important;
+    }
+
+    #project .container{
+        max-width: 100% !important;
+    }
+}

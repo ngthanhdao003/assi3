@@ -1,0 +1,63 @@
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 480px){
+    /* nav */
+    #nav-bar{
+        padding: 10px 0;
+    }
+    #nav-bar .row{
+        display: block;
+    }
+    #nav-bar a {
+        padding: 5px !important;
+        text-align: left;
+        padding-left: 35% !important;
+        
+    }
+
+    /* banner */
+    #banner .banner-content {
+        top: 30% !important;
+    }
+    #target{
+        width: 100%;
+    }
+    #personal-info{
+        width: 100%;
+    }
+
+    /* job info */
+    #chk-email{
+        width: 100%;
+    }
+    #job-info .container{
+        grid-template-columns: auto!important;     
+        max-width: 90%;
+    }
+
+    .certificate-wrap{
+        grid-template-columns: 1fr !important;
+    }
+
+    .section-title{
+        padding-top: 20px;
+    }
+    .certificate-content-border_left_bottom{
+        border: none !important;
+    }
+
+    .certificate-content-border{
+        border-top: solid 1px #d6c08d;
+    }
+
+    #project .project-wrap{
+        grid-template-columns: 1fr !important;
+    }
+
+}
+
+
+/* digital-cv.html */
+
+.mobile-timeline{
+    width: 50px;
+}
