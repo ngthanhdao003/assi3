@@ -20,4 +20,10 @@
     #project .container{
         max-width: 100% !important;
     }
+    #certificate .container {
+        max-width: 100% !important;
+    }
+    #certificate img{
+        width: 90%;
+    }
 }
